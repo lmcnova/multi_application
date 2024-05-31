@@ -1,0 +1,29 @@
+/* Style for the checkbox */
+.checkbox-overlay {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    z-index: 1;
+  }
+  
+  /* Style for the image */
+  .image-overlay {
+    position: relative;
+    z-index: 0;
+  }
+  
+  /* Style for the container */
+  .image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Style for the download link */
+  .download-link {
+    color:red;
+    position: absolute;
+    top: 8px;
+    right: 20px;
+    z-index: 2; /* Ensures the download link is above the checkbox */
+  }
+  

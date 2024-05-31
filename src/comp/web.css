@@ -1,0 +1,49 @@
+/* styles.css */
+
+
+
+.webcam
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.image-thumbnail {
+    position: relative;
+    display: inline-block;
+}
+
+.delete-button {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    padding: 5px;
+}
+
+
+.delete-button2 {
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    padding: 5px;
+}
+
+.icon {
+    color: red;
+    font-size: 12px;
+}
+
+.gallery-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
