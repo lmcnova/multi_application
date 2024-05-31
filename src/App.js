@@ -14,8 +14,8 @@ import BackRemove from "./comp/back_remove";
 function App() {
   return (
     <>
-    <BrowserRouter>
-      <Routes>
+    <BrowserRouter >
+      <Routes basename="{process.env.PUBLIC_URL}">
         <Route path="/youtube" element={<YouTubeDownload />} />
         <Route path="/video" element={<FileUploader />} />
         <Route path="/frame" element={<WebcamCapture />} />
