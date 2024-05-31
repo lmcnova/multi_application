@@ -1,4 +1,4 @@
-import { BrowserRouter, Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 import Home from './home';
 import YouTubeDownload from "./comp/youtube_download1";
